@@ -2,9 +2,6 @@ import calculator
 
 if __name__ == '__main__':
     calc = calculator.Calculator()
-    calc.add_car(
-        calculator.Car( "Toyota Corolla", 30000, 7, 1200, 2500),
-    )
 
     calc.add_car(
         calculator.ElectricCar("Tesla Model 3",  200000, 5500, 150),
@@ -15,7 +12,7 @@ if __name__ == '__main__':
     )
 
     calc.add_car(
-        calculator.Car("Toyota Camry", 60000, 8, 1200, 24Cha00),
+        calculator.Car("Toyota Camry", 60000, 8, 1200, 2400),
     )
 
 calc.print_cars()
