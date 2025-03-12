@@ -14,6 +14,10 @@ if __name__ == '__main__':
         calculator.Car("Range Rover", 650000, 3, 3000, 7000),
     )
 
+    calc.add_car(
+        calculator.Car("Toyota Camry", 60000, 8, 1200, 24Cha00),
+    )
+
 calc.print_cars()
 
 
