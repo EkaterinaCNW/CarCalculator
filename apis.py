@@ -2,14 +2,12 @@ def get_gas_price():
     # TODO: Get price from API
     return 9
 
-
 def get_power_price():
     # TODO: Get price from API
     return 1.2
 
-if __name__ == '__main__':
-    print("I am in apis.py")
-
+# if __name__ == '__main__':
+#     print("I am in apis.py")
 
 def parametrize(*args, list_of_params):
     def _parametrize(f):
