@@ -1,5 +1,7 @@
 # fixture используют для чтение данных из файла
-from calculator import Car, ElectricCar, Calculator
+from Car import Car
+from ElectricCar import ElectricCar
+from Сalculator import Calculator
 import pytest
 
 @pytest.fixture()
@@ -11,7 +13,8 @@ def car():
 def electricCar():
     return ElectricCar("Tesla Model 3",  200000, 5500, 150)
 
-@pytest.fixture(scope="session")
+#@pytest.fixture(scope="session")
+@pytest.fixture()
 def calculator(car):
     res = Calculator()
     res.add_car(car)
